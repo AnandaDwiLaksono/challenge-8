@@ -24,11 +24,11 @@ module.exports = {
     dialect: "postgres"
   },
   production: {
-    username: DB_USER,
-    password: DB_PASSWORD,
-    database: `${DB_NAME}_production`,
-    host: DB_HOST,
-    port: DB_PORT,
+    username: PGUSER,
+    password: PGPASSWORD,
+    database: PGDATABASE,
+    host: PGHOST,
+    port: PGPORT,
     dialect: "postgres"
   }
 }
